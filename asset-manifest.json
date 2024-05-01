@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/http//Elenakas8.github.io/portfolio-johns/static/css/main.f855e6bc.css",
+    "main.js": "/http//Elenakas8.github.io/portfolio-johns/static/js/main.9f4d8d9f.js",
+    "index.html": "/http//Elenakas8.github.io/portfolio-johns/index.html",
+    "main.f855e6bc.css.map": "/http//Elenakas8.github.io/portfolio-johns/static/css/main.f855e6bc.css.map",
+    "main.9f4d8d9f.js.map": "/http//Elenakas8.github.io/portfolio-johns/static/js/main.9f4d8d9f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.9f4d8d9f.js"
+  ]
+}
