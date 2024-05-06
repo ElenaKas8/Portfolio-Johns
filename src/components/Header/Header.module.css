@@ -5,7 +5,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-color: rgba(181, 232, 229, 0.4);
+    
     
   }
   
@@ -21,7 +21,7 @@ header {
   .itemNav li a.active,
   .itemNav a:focus,
   .itemNav li a:focus {
-    color: brown;
+    color: var(--primary);
   }
   
   .headerBtn {
