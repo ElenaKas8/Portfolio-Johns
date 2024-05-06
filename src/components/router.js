@@ -1,4 +1,4 @@
-import '../App.css'
+import "../App.css";
 
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "../components/Layout/Layout";
@@ -7,7 +7,6 @@ import WorksPage from "../pages/WorksPage/WorksPage";
 import BlogPage from "../pages/BlogPage/BlogPage";
 import ContactPage from "../pages/ContactPage/ContactPage";
 import NotFoundPage from "../pages/NotFoudPage/NotFoundPage";
-
 
 export const router = createBrowserRouter([
   {
@@ -18,7 +17,7 @@ export const router = createBrowserRouter([
         index: true,
         element: <HomePage />,
       },
-        
+
       {
         path: "/blog",
         element: <BlogPage />,
@@ -27,12 +26,12 @@ export const router = createBrowserRouter([
         path: "/works",
         element: <WorksPage />,
       },
-    
+
       {
         path: "/contact",
         element: <ContactPage />,
       },
-      { path: "*", element: <NotFoundPage/> },
+      { path: "*", element: <NotFoundPage /> },
     ],
   },
 ]);
