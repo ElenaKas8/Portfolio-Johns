@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/http//Elenakas8.github.io/portfolio-johns/static/css/main.9cc9d919.css",
-    "main.js": "/http//Elenakas8.github.io/portfolio-johns/static/js/main.77366da2.js",
+    "main.css": "/http//Elenakas8.github.io/portfolio-johns/static/css/main.8bf94eec.css",
+    "main.js": "/http//Elenakas8.github.io/portfolio-johns/static/js/main.26888146.js",
     "static/media/hero.png": "/http//Elenakas8.github.io/portfolio-johns/static/media/hero.8a365fa2638e0ebf2943.png",
     "index.html": "/http//Elenakas8.github.io/portfolio-johns/index.html",
-    "main.9cc9d919.css.map": "/http//Elenakas8.github.io/portfolio-johns/static/css/main.9cc9d919.css.map",
-    "main.77366da2.js.map": "/http//Elenakas8.github.io/portfolio-johns/static/js/main.77366da2.js.map"
+    "main.8bf94eec.css.map": "/http//Elenakas8.github.io/portfolio-johns/static/css/main.8bf94eec.css.map",
+    "main.26888146.js.map": "/http//Elenakas8.github.io/portfolio-johns/static/js/main.26888146.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cc9d919.css",
-    "static/js/main.77366da2.js"
+    "static/css/main.8bf94eec.css",
+    "static/js/main.26888146.js"
   ]
 }
