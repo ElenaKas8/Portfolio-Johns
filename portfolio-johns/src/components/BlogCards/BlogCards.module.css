@@ -1,0 +1,42 @@
+.blog_wrapper {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .posts_card {
+    padding: 20px 236px; 
+  }
+  
+  .post {
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 32px;
+  }
+  
+  .post h3 {
+    font-weight: 500;
+    font-size: 30px;
+    color: #21243d;
+    padding-bottom: 16px;
+  }
+  
+  .post p {
+    padding-bottom: 26px;
+  }
+  
+  .meta {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .tags {
+    font-weight: 400;
+    font-size: 20px;
+    color: #8695a4;
+  }
+  
+  @media screen and (min-width:320px) {
+    .posts_card {
+      padding: 20px 18px; 
+    }
+  }
+  
