@@ -32,7 +32,7 @@ export const router = createBrowserRouter([
         path: "/contact",
         element: <ContactPage />,
       },
-      { path: "*", element: <HomePage/> },
+      { path: "*", element: <NotFoundPage/> },
     ],
   },
 ]);
