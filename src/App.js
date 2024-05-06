@@ -5,7 +5,7 @@ import  {router}   from './components/router';
 import './App.css';
 function App() {
   
-    return <RouterProvider router={router}/>
+    return <RouterProvider router={router} basename="/portfolio-johns"/>
   
 }
 
