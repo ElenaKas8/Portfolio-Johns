@@ -1,7 +1,8 @@
+
 import React, { useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import css from "./Header.module.css"; 
-import { IoMenu } from "react-icons/io5";
+import { IoMenu, IoCloseOutline } from "react-icons/io5";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -9,7 +10,6 @@ const Header = () => {
 
   const toggleMenu = () => {
     setOpen(!open);
-    console.log("Menu is now", open ? "open" : "closed");
   };
 
   return (
@@ -25,18 +25,16 @@ const Header = () => {
           <li>
             <NavLink to="/works" className={location.pathname === "/works" ? css.active : ""}>Works</NavLink>
           </li>
-
           <li>
             <NavLink to="/contact" className={location.pathname === "/contact" ? css.active : ""}>Contact</NavLink>
           </li>
         </ul>
       </nav>
       <button className={css.headerBtn} onClick={toggleMenu}>
-        <IoMenu />
+        {open ? <IoCloseOutline /> : <IoMenu />}
       </button>
     </header>
   );
 };
 
 export default Header;
-
