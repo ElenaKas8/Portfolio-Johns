@@ -29,6 +29,7 @@
   
   .content {
     padding-right: 115px; 
+    padding-bottom: 71px;
   }
   
 .resume_btn{
@@ -70,6 +71,7 @@
   
     .content {
       order: -1; 
+      
     }
   
     .logo {

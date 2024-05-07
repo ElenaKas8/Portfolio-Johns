@@ -10,7 +10,7 @@ import FeaturedWorks from '../../components/FeaturedWorks/FeaturedWorks';
 const HomePage = () => {
   return (
     <>
-    <div className={css.container}>
+    <div className='container'>
       <section className={css.hero}>
         <div className={css.content}>
           <h1>Hi, I am John, Creative Technologist</h1>
@@ -19,11 +19,12 @@ const HomePage = () => {
         </div>
         <img src={heroImage} alt="logo" className={css.logo} />
       </section>
-      
     </div>
+   
     <ReceptPosts />
+    <div className='container'>
     <FeaturedWorks/>  
-    
+    </div>
     </>
   );
 }
