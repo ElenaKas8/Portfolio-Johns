@@ -8,7 +8,7 @@ const WorksPage = () => {
   return (
     <section className={css.works_section}>
       <div className='container'>
-        <h1>Work</h1>
+      <h1>Work</h1>
         <FeaturedWorks showAll={true} showParagraph={false}/>
         
       </div>

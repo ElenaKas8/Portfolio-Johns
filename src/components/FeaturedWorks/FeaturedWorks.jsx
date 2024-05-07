@@ -8,11 +8,13 @@ const FeaturedWorks = ({ showAll,showParagraph=true}) => {
   const displayedData = showAll ? workData : workData.slice(0, 3);
 
   return (
-    <div className={css.container}>
+    <div className=''>
       <section className={css.feature_wrapper}>
       {showParagraph && <p>Featured works</p>}
         {displayedData.map((item) => (
+          
           <div key={item.id} className={css.feature_card}>
+            
             <img src={item.main_img} alt={item.title} />
             <div className={css.content}>
               <h3>{item.title}</h3>
